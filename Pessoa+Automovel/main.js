@@ -7,6 +7,8 @@ class Main {
     addAutomovelPessoa(codPessoa, codAuto, marca, modelo) {
         const autoX = new Automovel(codAuto, marca, modelo);
         //    console.log(`Novo automóvel criado: ${marca} ${modelo}`);
+        //     ao inves do for pode ser: let pessoa = this.#pessoas.find(p => p.codigo === codPessoa);
+
         for (let item of this.#pessoas) {
             if (item.getCodigo() == codPessoa) {
                 item.inserirAutomovel(autoX);

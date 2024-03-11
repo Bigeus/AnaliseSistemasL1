@@ -1,3 +1,6 @@
+//sugestões da versao do professor
+//     .find()   .map
+
 const main = new Main();
 main.addPessoa(new Pessoa(1, "João"));
 main.addAutomovelPessoa(1, 1, "Fiat", "Uno");
