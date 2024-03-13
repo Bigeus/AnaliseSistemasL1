@@ -1,2 +1,2 @@
 # LINGUAGENS DE PROGRAMAÇÃO K
-## Bigeus's repo for learning Javascript
+## Bigeus's repo for learning Javascript and HTML
