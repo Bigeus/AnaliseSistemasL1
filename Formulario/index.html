@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+            <h1>Formulário</h1>
+
+            <label for="data"> Data </label>
+            <br>
+            <input type="date" name="" id="data">
+            <br>
+            <label for="login">Login</label>
+            <br>
+            <input type="text" id="login" placeholder="" name="inputLogin" autocomplete="off">
+            <br>
+            <label for="senha"> Senha </label>
+            <br>
+            <input type="password" name="" id="senha">
+
+            <h2>Dados Pessoais</h2>
+
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" name="inputNome" id="nome">
+            <br>
+            <label for="endereco">Endereço</label>
+            <br>
+            <input type="text" name="inputEndereco" id="endereco">
+            <br>
+            <label for="numero">Numero</label>
+            <br>
+            <input type="number" name="inputNumero" id="numero">
+            <br>
+            <label for="complemento">Complemento</label>
+            <br>
+            <input type="text" name="inputComplemento" id="complemento">
+            <br>
+            <label for="">Cidade</label>
+            <br>
+            <input list="cidades" name="cidades">
+            <datalist id="cidades">
+                <option value="Sorocaba">
+                <option value="Tatuí">
+                <option value="Votorantim">
+                <option value="Boituva">
+                <option value="Capela do Alto">
+            </datalist>
+            </select>
+            <br>
+            <label for="estados">Estado</label>
+            <br>
+            <select id="estados" name="selectEstados">
+                <option value="Escolha">Escolha uma opção</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+                <option value="SC">SC</option>
+                <option value="BH">BH</option>
+            </select>
+            <br>
+            <label for="cep">CEP</label>
+            <br>
+            <input type="number" name="inputCep" id="cep">
+            <br><br>
+            <label for="masculino">Gênero</label>
+            <br>
+            <input type="radio" id="masculino" name="generos" value="masculino">
+            <label for="masculino"> Masculino</label>
+            <input type="radio" name="generos" id="feminino" value="feminino">
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="generos" id="prefiroNaoFalar">
+            <label for="prefiroNaoFalar">Prefiro não falar</label>
+            <br>
+            <label for="curso1">Cursos</label>
+            <br>    
+            <input type="checkbox" id="curso1" name="ads" value="ads">
+            <label for="curso1">ADS</label><br> 
+            <input type="checkbox" id="curso2" name="jogos" value="jogos">
+            <label for="curso1">Jogos</label><br> 
+            <input type="checkbox" id="curso3" name="gestaoTi" value="gestaoTi">
+            <label for="curso1">Gestão de TI</label><br> 
+            <input type="checkbox" id="curso4" name="bandoDeDados" value="bancoDeDados">
+            <label for="presencial">Período do Curso</label>
+            <br>
+            <input type="radio" id="presencial" name="periodosCursos">
+            <label for="presencial"> Presencial</label>
+            <input type="radio" name="periodosCursos" id="ead">
+            <label for="ead">EAD</label>
+            <input type="radio" name="periodosCursos" id="semiPresencial">
+            <label for="semiPresencial">Semi Presencial</label>
+            <br>
+    </center>
+</body>
+
+</html>
