@@ -1,0 +1,54 @@
+h1{
+    color:tomato;
+}
+
+/* estilo de elemento */
+p {
+    color:teal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-family: fantasy;
+}        
+
+body{
+    background-color:darkgrey;
+}
+
+/* estilo de classe */
+.minhaClasse{
+    color:black;
+    font-style: italic;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outraClasse{
+    text-decoration: line-through;
+}
+
+/* estilo de id */
+#p1{
+    color: crimson;
+    font-size: large;
+    background-color: burlywood;
+    font-family: cursive;
+}
+
+
+.imgStyle{
+    width: 500px;
+    height: 200px;
+    border: 10px solid tomato; 
+}
+
+.imgStyle_1{
+    border: 10px;
+}
+
+.passions-conflict-regular {
+    font-family: "Passions Conflict", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+  }
+
