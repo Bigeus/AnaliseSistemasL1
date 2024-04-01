@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#titulo {
+    font-family: cursive;
+    vertical-align: middle;
+    border: 10px solid brown;
+    margin: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+body {
+    background-color: #e4bc84;
+    /* border: 3px solid brown; */
+}
+
+#homeLink {
+    color: black;
+    text-align: center;
+}
+
+.navigation {
+    font-family: cursive;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    /* Centraliza horizontalmente */
+    height: 100%;
+    /* Garante que o header ocupe toda a altura */
+}
+
+#menuLink {
+    color: black;
+    text-align: center;
+    /* Centraliza horizontalmente */
+}
+
+#imagemXicaraPeq {
+    margin-right: 20px;
+    /* Espaçamento entre a imagem e o texto */
+    width: 180px;
+    height: 180px;
+    border-right: 5px solid brown;
+}
+
+.bigBlock {
+    display: flex;
+    /* Torna o contêiner principal um flex container */
+    flex-direction: column;
+    /* Empilha os elementos verticalmente */
+    align-items: center;
+    /* Centraliza os elementos horizontalmente */
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    border: 3px solid brown;
+}
+
+.firstRow {
+    display: flex;
+    /* Torna a primeira linha um flex container */
+    justify-content: space-between;
+    /* Espaço uniforme entre os elementos */
+    align-items: center;
+    /* Centraliza verticalmente os elementos */
+    border: 2px solid brown;
+    font-family: cursive;
+}
+
+.firstRow p {
+    margin-left: 20px;
+    /* Espaçamento entre o texto e a imagem */
+    order: 0;
+    /* Define a ordem do texto para aparecer primeiro */
+    font-family: cursive;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid brown;
+}
+
+.secondRow img {
+    margin-left: 20px;
+    /* Espaçamento entre a imagem e o texto */
+    width: 180px;
+    height: 180px;
+    order: 1;
+    /* Define a ordem da imagem para aparecer no final */
+    border: 2px solid brown;
+}
+
+.secondRow p {
+    margin-right: 20px;
+    /* Espaçamento entre o texto e a imagem */
+    order: 0;
+    /* Define a ordem do texto para aparecer primeiro */
+    font-family: cursive;
+}
+
+.middleRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid brown;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: cursive;
+}
+
+hr {
+    margin: 10px 0;
+    /* Margem superior e inferior de 10 pixels */
+    border: 1px solid brown;
+    /* Borda sólida preta com 1 pixel de espessura */
+}
+
+
+footer {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+}
+
+.contact {
+    font-weight: 700;
+    padding-left: 100px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px; /* Adicione margem à esquerda para ajustar o texto */
+    margin-bottom: 5px; /* Adicione margem inferior para separar do próximo elemento */
+}
+
+#imgCaramelo{
+    border-left: 5px solid brown;
+}
