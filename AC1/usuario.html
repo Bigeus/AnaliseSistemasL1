@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC1 - Prática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-h1">Livraria Saraiva</h1>
+        <p class="subtitulo-p">Produtos selecionados</p>
+        <nav>
+            <ul class="ul-menu">
+                <li><a class="a-menu" href="index.html">Home</a></li>
+                <li><a class="a-menu" href="usuario.html">Usuário</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="formulario-main">
+        <fieldset>
+            <legend>Cadastro de usuário</legend>
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data">
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero">
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="">Selecione o Estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <label for="cidade">Cidade:</label>
+            <input list="cidades" id="cidade" name="cidade">
+            <datalist id="cidades">
+                <option value="Rio Branco">
+                <option value="Maceió">
+                <option value="Macapá">
+                <option value="Manaus">
+                <option value="Salvador">
+                <option value="Fortaleza">
+                <option value="Brasília">
+                <option value="Vitória">
+                <option value="Goiânia">
+                <option value="São Luís">
+                <option value="Cuiabá">
+                <option value="Campo Grande">
+                <option value="Belo Horizonte">
+                <option value="Belém">
+                <option value="João Pessoa">
+                <option value="Curitiba">
+                <option value="Recife">
+                <option value="Teresina">
+                <option value="Rio de Janeiro">
+                <option value="Natal">
+                <option value="Porto Alegre">
+                <option value="Porto Velho">
+                <option value="Boa Vista">
+                <option value="Florianópolis">
+                <option value="São Paulo">
+                <option value="Aracaju">
+                <option value="Palmas">
+            </datalist>
+            <button>Enviar</button>
+        </fieldset>
+    </main>
+    <footer>
+        <p>© 2024 Livraria Saraiva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
