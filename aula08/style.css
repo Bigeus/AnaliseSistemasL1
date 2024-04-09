@@ -1,0 +1,40 @@
+img{
+    width: 120px;
+    height: 120px;
+}
+
+.dog{
+    border: 5px solid greenyellow;
+    border-radius: 60%;
+    order: 1;
+    flex-flow: column wrap;
+}
+.dog1{
+    border: 5px solid yellow;
+    border-radius: 60%;
+    order: 2;
+    align-self: center  ;
+}
+.dog2{
+    border: 5px solid orangered;
+    border-radius: 60%;
+    order: 3;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+    height: 97vh;
+    
+    
+    /* justify-content: start; */ 
+     /* justify-content:center; */
+    /* justify-content: end;  */
+    /* gap: 100px; */
+    /* justify-content:  ; */
+    /* align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start; */
+}
+
