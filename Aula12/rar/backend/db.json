@@ -1,0 +1,19 @@
+{
+    "animal": [
+        {
+            "nome": "Trevor",
+            "idade": 5,
+            "raca": "Akita"
+        },
+        {
+            "nome": "Michael",
+            "idade": 10,
+            "raca": "Shitzu"
+        },
+        {
+            "nome": "Franklin",
+            "idade": 15,
+            "raca": "Hotweiller"
+        }
+    ]
+}
