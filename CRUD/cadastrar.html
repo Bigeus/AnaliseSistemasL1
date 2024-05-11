@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1>Lista de Clientes - Easy Search</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a class="menuLink" id="home" href="index.html">Home</a></li>
+                <li><a class="menuLink" href="cadastrar.html">Cadastrar</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="contentForm">
+            <h1>CADASTRO DE CLIENTES</h1>
+            <form id="myForm">
+                <div class="myForm">
+                    <section class="sectionCadastro">
+                        <label for="nome">Nome:</label>
+                        <input class="inputs" type="text" id="nome" name="nome" required>
+                    </section>
+
+                    <section class="sectionCadastro">
+                        <label for="raca">Email:</label>
+                        <input class="inputs" type="email" id="email" name="email" required>
+                    </section>
+
+                    <section class="sectionCadastro">
+                        <label for="idade">Idade:</label>
+                        <input class="inputs" type="number" id="idade" name="idade" required>
+                    </section>
+                </div>
+
+                <div>
+                    <button onclick="cadastrar()" id="btn-cadastrar" class="btnForm" type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por Bigeus</p>
+        </footer>
+    </main>
+
+    <script src="backend/utils.js"></script>
+    <script src="cadastrar.js"></script>
+</body>
+
+</html>
