@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <main>
+        <div class="box-login">
+            <div>
+                <h2 class="title-login">Login</h2>
+            <form class="form-login" onsubmit="fazlogin(); return false">
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Senha" id="senha">
+                <button type='submit' onclick="fazLogin()">ENTRAR</button>
+                <p class="error" id="Erro"></p>
+            </form>
+        </div>
+            <div class="box-text">
+                <h2>Olá!</h2>
+                <p>Registre-se com seus dados pessoais</p>
+                <button>CADASTRAR</button>
+            </div>
+        </div>
+    </main>
+    <script src="login.js"></script>
+    <script src="utils.js"></script>
+</body>
+</html>
