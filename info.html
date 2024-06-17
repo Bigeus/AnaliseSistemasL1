@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações do Repositório</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('imgs/background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #f8f9fa;
+        }
+
+        .info-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .nav-link {
+            transition: background-color 0.3s;
+        }
+
+        .navbar .nav-link:hover {
+            background-color: #ffffff;
+            color: #343a40;
+        }
+
+        .info-text {
+            text-align: justify;
+            font-size: 1.2em;
+        }
+
+        #central .info-container {
+            transition: transform 0.2s;
+        }
+
+        #central .info-container:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-2">
+        <a class="navbar-brand rounded p-2" href="/index.html">
+            <button type="button" class="btn btn-outline-secondary text-white p-2">Meus Projetos</button> 
+        </a>
+        <a class="navbar-brand rounded p-2" href="/info.html">
+            <button type="button" class="btn btn-outline-secondary text-white px-4 py-2">Sobre</button> 
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div class="container d-flex justify-content-center align-items-center" id="central" style="height: 100vh;">
+        <div class="info-container text-center">
+            <h1 class="mb-4">Bem-vindo ao Meu Repositório de Aprendizado!</h1>
+            <p class="info-text">
+                Esse repositório é uma coleção de várias tarefas, provas e exercícios da disciplina de Linguagens de Programação 🖥️, que tive o prazer de cursar no terceiro semestre no Centro Universitário Facens. Tive a honra de ter como mentor o professor Fabio Colombini 👨‍🏫. 
+                <br><br>
+                Nessa matéria, começamos do zero e fomos conhecendo o universo do HTML, CSS e JavaScript 🌐, e ainda tivemos a chance de explorar a incrível biblioteca Bootstrap. São diversos exercícios, avaliações e testes que me ajudaram a entender essas tecnologias de uma maneira prática e divertida.
+                <br><br>
+                Venha comigo nessa jornada 🚀 para aprender do zero o desenvolvimento web e descobrir como foi minha evolução ao longo do caminho. Vamos lá?!
+            </p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
